@@ -1,0 +1,109 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+
+
+body {
+  top: 40px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  height: auto;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #d8d8d8;
+  border-radius: 0;
+  border: 0;
+  color: black;
+}
+
+.navbar-fixed-top {
+  position: relative; /* this can also be static */
+}
+.navbar-header .navbar-brand { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-header .navbar-brand a:hover, .navbar-header .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header .navbar-inverse .navbar-brand a:hover, 
+.navbar-header .navbar-inverse .navbar-brand a:focus {
+  
+  text-decoration: none ;
+}
+
+#nav-list {
+  margin-top: 5px;
+  border: 0;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+/** Main Content**/
+#header-content {
+  margin-top: -20px;
+  background-color: white;
+}
+
+.row {
+  background-color: #d8d8d8;
+  border: 0px solid black;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#chicken, #sushi, #beef{
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  float: right;
+  background-color: #59c1da;
+}
+
+#sushi {
+  background-color: #fdae84;
+}
+
+#beef {
+  background-color: #8bcbc8;
+}
+
+#text {
+
+  padding: 5px;
+  /*padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;*/
+  font-size: 1em;
+}
+
+  
