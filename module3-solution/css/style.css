@@ -49,15 +49,20 @@ p {
   margin-bottom: 0;
   line-height: .75;
 }
-
+/*color of outline of navbar toggle button*/
 .navbar-inverse .navbar-toggle {
-    
     border-color: #E7E7E7;
 }
+
+.navbar-inverse .navbar-toggle:hover{
+  background-color: #A7A7A7;
+}
+/*color of line, which separates the menu from the navbar*/
 .navbar-inverse .navbar-collapse {
     
     border-color: #E7E7E7;
 }
+
 
 /*.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
