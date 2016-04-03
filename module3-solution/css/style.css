@@ -28,7 +28,7 @@ p {
 }
 
 
-/*.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:hover, 
 .navbar-inverse .navbar-brand:focus {
     background-color: transparent;
     color: black;
@@ -40,7 +40,7 @@ p {
   right: 0;
   left: 0;
   z-index: 1030;
-}*/
+}
 
 .navbar-header .navbar-brand { /* Restaurant name */
   color: black;
@@ -59,9 +59,9 @@ p {
     border-color: #E7E7E7;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+/*.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
+}*/
 
 #nav-list {
   margin-top: 5px;
